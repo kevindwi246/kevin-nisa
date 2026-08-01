@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kevin ❤️ Nisa</title>
 
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="loading">
+    <h1>Loading Memories...</h1>
+    <div class="bar">
+        <div class="progress"></div>
+    </div>
+</div>
+
+<div id="main" style="display:none;">
+
+    <video autoplay muted loop id="bgVideo">
+        <source src="assets/rain.mp4" type="video/mp4">
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="content">
+
+        <img src="assets/photo.jpg" class="photo">
+
+        <h1>KEVIN ❤️ NISA</h1>
+
+        <p id="typing"></p>
+
+        <button id="musicBtn">
+            ▶ Putar Musik
+        </button>
+
+        <audio id="music">
+            <source src="assets/music.mp3" type="audio/mp3">
+        </audio>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
